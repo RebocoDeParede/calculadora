@@ -1,0 +1,138 @@
+body{
+    background-color: bisque;
+}
+
+#display{
+    font-size: 2rem;
+    margin-top: 220px;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 5px;
+    background-color: beige;
+    width: auto 200px;
+    justify-self: center;
+    text-align: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 10px;
+    justify-content: center;
+    background-color: #333;
+    border: 5px solid;
+    width: 400px;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.num-btm{
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 204, 144);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.num-btm:hover{
+    background-color: rgb(247, 220, 179);
+}
+
+.num-btn{
+    font-size: 1.5rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 204, 144);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.num-btm1{
+    background-color: rgb(95, 137, 230);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.num-btm1:hover{
+    background-color: rgb(118, 158, 245);
+}
+
+.num-btm2{
+    background-color: rgb(230, 95, 95);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.num-btm2:hover{
+    background-color: rgb(235, 114, 114);
+}
+
+
+.num-btm3{
+    background-color: rgb(53, 187, 180);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.num-btm3:hover{
+    background-color: rgb(76, 216, 209);
+}
+
+
+.num-btm4{
+    background-color: rgb(208, 95, 230);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.num-btm4:hover{
+    background-color: rgb(215, 114, 235);
+}
+
+
+.num-btm5{
+    background-color: rgb(230, 167, 95);
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.num-btm5:hover{
+    background-color: rgb(233, 179, 117);
+}
+
+
+
+.clear-btn{
+    background-color: white;
+}
+.clear-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.equal-btn{
+    background-color: greenyellow;
+
+}
+.equal-btn:hover{
+    background-color: rgb(232, 255, 197);
+}
